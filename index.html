@@ -6,7 +6,12 @@
     <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no,maximum-scale=1.0">
     <link rel="stylesheet" type="text/css" href="style/index.css">
     <script type="text/javascript" src="js/index.js"></script>
-
+    <script type="text/javascript" src="cordova.js"></script>
+    <script type="text/javascript">
+        document.addEventListener('DOMContentLoaded',function(){
+                alert(navigator.connection.type);
+        },false);
+    </script>
 </head>
 <body>
     <header id="top">
